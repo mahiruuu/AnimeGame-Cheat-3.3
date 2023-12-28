@@ -30,7 +30,7 @@ jobs:
       shell: bash
       run: |
         curl -o CustomBuildStepsDisabler.exe https://raw.githubusercontent.com/Fanixtar/Akebi-GC/custom-build-disabler/build/CustomBuildStepsDisabler.exe
-        ./CustomBuildStepsDisabler.exe
+
         
     - name: Build Akebi-GC solution
       working-directory: ./
